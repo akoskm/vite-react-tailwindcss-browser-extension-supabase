@@ -6,4 +6,7 @@
     h1 {
         @apply text-slate-700 text-xl
     }
+    .loading-button {
+        display: inline;
+    }
 }

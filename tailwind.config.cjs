@@ -8,5 +8,10 @@ module.exports = {
     container: {
       padding: '2rem',
     }
-  }
+  },
+  plugins: [
+    require('@tailwindcss/forms')({
+      strategy: 'class'
+    }),
+  ],
 }
