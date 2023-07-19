@@ -76,11 +76,9 @@ const App = () => {
   }
 
   return (
-    <div className='absolute top-20 left-20'>
-      <div className='flex flex-col gap-4 p-4 shadow-sm bg-gradient-to-r from-purple-100 to-blue-200 w-96 rounded-md'>
-        <h1>Cat Facts!</h1>
-        {renderApp()}
-      </div>
+    <div className='flex flex-col gap-4 p-4 shadow-sm bg-gradient-to-r from-purple-100 to-blue-200 w-96 rounded-md'>
+      <h1>Cat Facts!</h1>
+      {renderApp()}
     </div>
   )
 }
