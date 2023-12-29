@@ -18,7 +18,7 @@
   "license": "ISC",
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.3",
-    "@types/node": "^18.11.9",
+    "@types/node": "^20.10.5",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
     "@types/webextension-polyfill": "^0.10.7",
